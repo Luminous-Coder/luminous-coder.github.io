@@ -1,0 +1,65 @@
+/* Overview */
+body {
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #10A0FF;
+}
+
+a:hover {
+    text-shadow: 0 0 1px #10A0FF;
+}
+
+/* Top Navbar */
+.top-nav {
+    font-size: x-large;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.top-nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+}
+
+.top-nav > ul > li {
+    margin-right: 8%;
+}
+
+.top-nav a,
+.top-nav a:hover {
+    display: block;
+    color: #FFFFFF;
+}
+
+/* Top Header */
+.top-h {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+/* Center Box */
+.center-box {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Utilities */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
